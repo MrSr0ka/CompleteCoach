@@ -1,0 +1,60 @@
+const Categories = [
+  {
+    id: 1,
+    title: "Jonas Bjorgen",
+    price: "£90",
+    image: require("./face.jpg"),
+    description: "PhD accounting and finance",
+    category: "Accounting",
+  },
+  {
+    id: 2,
+    title: "Kim Bauer",
+    price: "£75",
+    image: require("./face2.jpg"),
+    description: "PhD Arts",
+    category: "Arts",
+  },
+  {
+    id: 3,
+    title: "Matt Doe",
+    price: "£110",
+    image: require("./face.jpg"),
+    description: "PhD Politics",
+    category: "Politics",
+  },
+  {
+    id: 4,
+    title: "Alan Doe",
+    price: "£75",
+    image: require("./face.jpg"),
+    description: "PhD Geopolitics",
+    category: "Politics",
+  },
+  {
+    id: 5,
+    title: "Christian Paul",
+    price: "£80",
+    image: require("./face.jpg"),
+    description: "MSc Cybersecurity",
+    category: "Computing",
+  },
+  {
+    id: 6,
+    title: "Anton Mriya",
+    price: "£65",
+    image: require("./face.jpg"),
+    description: "MSc Graphic Design",
+    category: "Computing",
+  },
+  {
+    id: 7,
+    title: "Maria Sparrow",
+    price: "£85",
+    image: require("./face.jpg"),
+    description: "Business Owner",
+    category: "Accounting",
+  },
+];
+
+export default Categories;

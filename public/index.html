@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP V3.3.7-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <!-- FONTS AWESOME-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/solid.min.css" integrity="sha512-wQ0aDa8upf/3Fun6Qby6g8uXyPqKl54VpEO/SwjjqxeUwThb6TIP5kloJ2tOHqnjLsd88S5p1VoOIXEl42mHYg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <!--PROJECT CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>CompleteCoach - Online tutoring made easy.</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+</head>
+    <header>
+    <nav id="naviMain">
+        <li><img class="logo" src="./logo.png"></li>
+        <ul>
+            <li><a class="menuBar" href="/index.html">HOME</a></li>
+            <li class="dropdown"><a class="menuBar b4arrow dropbtn" href="#javascript:void(0)">PROGRAMMES<i class="fas fa-angle-double-down navArrow"></i></a>
+            <div id="dropdown-content">
+                <a href="#">PERSONAL TUTOR</a>
+                <a href="#">1-ON-1 TUTORING</a>
+                <a href="#">GROUP SESSIONS</a>
+                <a href="#">ONLINE SESSIONS</a>
+            </div>
+            </li>
+            <li><a class="menuBar" href="#clients">FIND TUTOR</a></li>
+            <li><a class="menuBar" href="#aboutme">ABOUT US</a></li>
+            <li class="dropdown"><a class="menuBar b4arrow dropbtn" href="#javascript:void(0)">PRICES AND FAQ<i class="fas fa-angle-double-down navArrow"></i></a>
+                <div id="dropdown-content">
+                    <a href="#">BUNDLES</a>
+                    <a href="#">PRICES</a>
+                    <a href="/tools.html">TOOLS (beta)</a>
+                </div>
+            </li>
+            <li><a class="menuBar contactLink" href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <section id="landing" class="mainLanding">
+        <div class="mainWelcome">
+            <div class="mW1">
+    <h1 class="sectionHeader smW1">We are&nbsp;</h1> <h1 class="capableHeader"> Capable,</h1>
+            </div><br>
+    <div class="mW2">
+        <h1 class="sectionHeader smW1">but are You</h1><h1 class="capableHeader cH2">&nbsp;Ready?</h1>
+    </div>
+    
+    
+    <a href="#programmes" class="button button1">Find your tutor!</a>
+    </div>
+
+    </section>
+    <section id="clients" class="mainClients">
+    <h1 class="sectionHeader progHeader"> ONLINE TUTORING IN 60 SECONDS</h1>
+    <div class="tutorialBox">
+        <div class="row stepOne">
+            <img class="stepImg" src="./1.png">
+            <h2 class="stepText">Identify the topic you need help with. Not sure who can help?<br> Let us know and we will match you the best tutors available.</h2>
+        </div>
+        <div class="row stepTwo"><h2 class="stepText">Use finder to search for specifc faculty.<br> Then display details of tutor to see what is he specialised in.</h2>
+            <img class="stepImg stepImg2" src="./2.png">
+        </div>
+        <div class="row stepThree"><img class="stepImg" src="./3.png">
+            <h2 class="stepText">Book a session with your new mentor and enjoy your best grades!</h2>
+        </div>
+    </div>
+    </section>
+    <section id="app" class="mainApp">
+        <!-- <h1 class="sectionHeader">FIND YOUR DESIRED TUTOR NOW</h1> -->
+    <div id="appDisplay" class="appWrap">
+
+        <script src="/src/App.js"></script>
+    
+    </div>
+        </section>
+        
+    <section id="programmes" class="mainProgrammes">
+    <h1 class="sectionHeader">Not sure, who can help you?</h1>
+    <div class="progWrap">
+        <div class="progText">
+            <h1>No worries, leave it for us!</h1>
+
+            <h2>Just let us know, what you have to learn, and we will match you with the best available tutors!
+            </h2>
+        </div>
+        <div class="consultBox">
+            <h1> Free consultation</h1>
+            <form class="consultForm">
+            <!-- <img class="tempCons" src="/consult.png"> -->
+            <p>Full Name</p>
+            <input type="text" required>
+            <p>Email address</p>
+            <input type="email" value="your@email" required>
+            <p>Session deadline</p>
+            <input type="date" required><br><br>
+            <p>How we can help?</p>
+            <input type="text" class="textMsg" required><br><br>
+            <input type="submit" value="Match me!">
+        </form>
+        </div>
+    </div>
+    </section>
+
+ 
+
+    <section id="prices" class="mainPric">
+    <h1 class="sectionHeader"> THIS IS PRICES AND ABOUT SECTION</h1>
+    </section>
+    <section id="contact" class="mainContact">
+    <h1 class="sectionHeader"> THIS IS CONTACT SECTION</h1>
+    </section>
+<footer id="footer">
+    <p class="info">Coded and designed by Michal Maciej</p>
+    <div class="footerCol">
+        <div class="footer1 footCols">
+            <h1 class="footerMenu">Services</h1>
+            <ul class="footerList">
+                <li><a href="#">Science Tutors</a></li>
+                <li><a href="#">Language Teachers</a></li>
+                <li><a href="#">Academic Coaching</a></li>
+            </ul>
+        </div>
+        <div class="footer2 footCols">
+            <h1 class="footerMenu">About Us</h1>
+            <ul class="footerList">
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Specialisations</a></li>
+            </ul>
+        </div>
+        <div class="footer3 footCols">
+            <h1 class="footerMenu">FAQ</h1>
+            <ul class="footerList">
+                <li><a href="#">How much does service cost?</a></li>
+                <li><a href="#">Do i have to self study?</a></li>
+                <li><a href="#">Are offline materials available?</a></li>
+            </ul>
+        </div>
+        <div class="footer4 footCols">
+            <h1 class="footerMenu">Address</h1>
+            <ul class="footerList">
+                <li><p>Warwick Road,</p></li>
+                <li><p>Earls Court, SW5</p</li>
+                <li><p>London</p></li>
+            </ul>
+        </div>
+    </div>
+    <p class="signature">All rights reserved 2022 CompleteCoach LTD</p>
+    
+</footer>
+</body>
+</html>
