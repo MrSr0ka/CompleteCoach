@@ -30,25 +30,60 @@ const Category = () => {
             >
               Arts
             </button>
-            <button className="btn btn-warning w-35 mr-2">Biology</button>
-            <button className="btn btn-warning w-35 mr-2">Business</button>
-            <button className="btn btn-warning w-35 mr-2">Chemistry</button>
+            <button
+              className="btn btn-warning w-35 mr-2"
+              onClick={() => filterResult("Biology")}
+            >
+              Biology
+            </button>
+            <button
+              className="btn btn-warning w-35 mr-2"
+              onClick={() => filterResult("Business")}
+            >
+              Business
+            </button>
+            <button
+              className="btn btn-warning w-35 mr-2"
+              onClick={() => filterResult("Chemistry")}
+            >
+              Chemistry
+            </button>
             <button
               className="btn btn-warning w-35 mr-2"
               onClick={() => filterResult("Computing")}
             >
               Computing
             </button>
-            <button className="btn btn-warning w-35 mr-2">Maths</button>
+            <button
+              className="btn btn-warning w-35 mr-2"
+              onClick={() => filterResult("Maths")}
+            >
+              Maths
+            </button>
             <button
               className="btn btn-warning w-35 mr-2"
               onClick={() => filterResult("Politics")}
             >
               Politics
             </button>
-            <button className="btn btn-warning w-35 mr-2">Physics</button>
-            <button className="btn btn-warning w-35 mr-2">Psychology</button>
-            <button className="btn btn-warning w-35 mr-2">Sociology</button>
+            <button
+              className="btn btn-warning w-35 mr-2"
+              onClick={() => filterResult("Physics")}
+            >
+              Physics
+            </button>
+            <button
+              className="btn btn-warning w-35 mr-2"
+              onClick={() => filterResult("Psychology")}
+            >
+              Psychology
+            </button>
+            <button
+              className="btn btn-warning w-35 mr-2"
+              onClick={() => filterResult("Sociology")}
+            >
+              Sociology
+            </button>
             <button
               className="btn btn-warning w-35 mr-2"
               onClick={() => setData(Categories)}

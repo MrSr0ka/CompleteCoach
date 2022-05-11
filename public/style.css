@@ -579,7 +579,7 @@ body {
 
 /* ------- SUB-PAGES ------- */
 
-/* TOOLS PAGE */
+/* TOOLS PAGE
 
 #tools {
   width: 100%;
@@ -606,4 +606,23 @@ body {
   width: 500px;
   height: 500px;
   margin: 2rem;
+} */
+
+
+/* ----- TESTIMONIALS SECTION  ----- */
+
+.testiWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 8rem;
+
+}
+
+.feedbackCard {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
