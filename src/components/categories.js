@@ -129,7 +129,7 @@ const Categories = [
   },
   {
     id: 17,
-    title: "Jack Graniecky",
+    title: "Jacek Graniecki",
     price: "£75",
     image: require("./face.jpg"),
     description: "Keptn",
@@ -145,7 +145,7 @@ const Categories = [
   },
   {
     id: 19,
-    title: "Dr Spencer Black",
+    title: "Dr Nio Wuwu",
     price: "£30",
     image: require("./face.jpg"),
     description: "PhD Chemistry",
@@ -153,7 +153,7 @@ const Categories = [
   },
   {
     id: 20,
-    title: "Dr Luiza Sprusinska",
+    title: "Dr Luiza Palhais",
     price: "£45",
     image: require("./face.jpg"),
     description: "PhD Chemistry",
@@ -236,12 +236,12 @@ const Categories = [
     title: "Prof Alan Wake",
     price: "£100",
     image: require("./face.jpg"),
-    description: "PhD Human Psychology and Behaviour",
+    description: "PhD Criminal Behaviour",
     category: "Psychology",
   },
   {
     id: 31,
-    title: "Toni Montana",
+    title: "Anthony McCherry-Witch",
     price: "£30",
     image: require("./face.jpg"),
     description: "BSc Sociology",
@@ -249,7 +249,7 @@ const Categories = [
   },
   {
     id: 32,
-    title: "Ted Bundy",
+    title: "Al Bundy",
     price: "£70",
     image: require("./face.jpg"),
     description: "PhD Sociology",
